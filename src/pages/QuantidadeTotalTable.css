@@ -1,0 +1,52 @@
+
+
+.quantidade-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .quantidade-table th, .quantidade-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+
+  .quantidade-table th {
+    background-color: #f2f2f2;
+  }
+
+  .quantidade-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .quantidade-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  .quantidadeTotal{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+    #title{
+        font-size: 35px;
+    }
+    #entrada{
+        color:#F2B705 ;
+    }
+    #saida{
+        color: #C0091E;
+    }
+  label {
+    margin-right: 10px;
+  }
+
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  select:hover {
+    cursor: pointer;
+  }

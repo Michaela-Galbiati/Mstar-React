@@ -1,0 +1,97 @@
+/* cadastro.css */
+
+.form-container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.form-container1 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.caixae{
+    background-color: #030640;
+    width: 300px;
+    color: white;
+    height: 100px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+.caixae>h2{
+    margin: 30px;
+}
+.caixas{
+    background-color:#C0091E;
+    width: 300px;
+    color: white;
+    height: 100px;
+    border-radius: 5px;
+
+    margin: 20px;
+}
+.caixas>h2{
+    margin: 30px;
+}
+.diferenca{
+    background-color:#D98E04;
+    width: 300px;
+    color: white;
+    height: 100px;
+    border-radius: 5px;
+
+    margin: 20px;
+}
+.diferenca>h2{
+    margin: 30px;
+}
+
+.quantidade-variedade-itens{
+    background-color:#A66851;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    border-radius: 5px;
+
+    margin: 20px;
+}
+.quantidade-variedade-itens>h2{
+    margin: 30px;
+
+}
+
+.form-container1 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container1 button {
+    width: 100%;
+    padding: 10px;
+    background-color:#D98E04;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.sums {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}

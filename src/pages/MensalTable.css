@@ -1,0 +1,94 @@
+  .mensal-table th, .mensal-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+
+  .mensal-table th {
+    background-color: #f2f2f2;
+  }
+#entrada{
+    color:#030640;
+}
+#saida{
+    color:#C0091E;
+}
+  .mensal-table tbody tr:nth-child(even) {
+    background-color: #F2B705;
+  }
+
+  .mensal-table tbody tr:hover {
+    background-color:#F2B705;
+  }
+
+  .mensal-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  #mensalChart{
+    width: 800px;
+    height: 400px;
+}
+  .mensal-table {
+    flex: 1;
+    margin-right: 10px;
+    margin: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .mensal-table th, .mensal-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+
+  .mensal-table th {
+    background-color: #f2f2f2;
+  }
+
+  .mensal-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .mensal-table tbody tr:hover {
+    background-color: #ddd;
+  }
+
+
+  .mensal-table button {
+    background-color:#D98E04;
+    color: white;
+   border-radius: 5px;
+    font-size: 15px;
+   padding: 10px;
+   border: none;
+   margin: 10px;
+  }
+  .mensal-table button:hover {
+    background-color:#CFD8D7;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+
+   }
+
+#title{
+  font-size: 35px;
+}
+
+  #mensalChart {
+    max-width: 1200px;
+    height: 500px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .mensal-container {
+      flex-direction: column;
+    }
+    #mensalChart{
+        max-width: 600px;
+        height: 200px;
+    }
+}

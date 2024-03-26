@@ -1,0 +1,23 @@
+/* home.css */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+    background-image: url('./img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .content1 {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.703);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  img{
+    width: 300px;
+  }
